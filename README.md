@@ -3,7 +3,6 @@ Welcome to ZenApp – The Minimalist Android Launcher  Tired of cluttered home s
 <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/home.png" alt="ZenApp Screenshot" width="300">
 <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/applist.png" alt="ZenApp Screenshot" width="300">
 <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/setting.png" alt="ZenApp Screenshot" width="300">
-<img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/home.png" alt="ZenApp Screenshot" width="300">
 <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/about.png" alt="ZenApp Screenshot" width="300">
 
 
