@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+        <!-- Base application theme -->
+        <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:windowBackground">@color/background_primary</item>
+            <item name="android:textColorPrimary">@color/text_primary</item>
+            <item name="android:textColorSecondary">@color/text_secondary</item>
+            <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        </style>
+
+<!--        &lt;!&ndash; Settings item background style &ndash;&gt;-->
+<!--        <style name="SettingsItemStyle">-->
+<!--            <item name="android:background">@drawable/settings_item_background</item>-->
+<!--            <item name="android:clickable">true</item>-->
+<!--            <item name="android:focusable">true</item>-->
+<!--        </style>-->
+
+<!--        &lt;!&ndash; App list item style &ndash;&gt;-->
+<!--        <style name="AppListItemStyle">-->
+<!--            <item name="android:background">@drawable/app_list_item_background</item>-->
+<!--            <item name="android:clickable">true</item>-->
+<!--            <item name="android:focusable">true</item>-->
+<!--        </style>-->
+
+
+
+    <!-- Other styles remain the same -->
+    <style name="AppListItemStyle">
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:background">@drawable/app_list_item_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SettingsItemStyle">
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:padding">@dimen/spacing_large</item>
+        <item name="android:background">@drawable/settings_item_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_small</item>
+    </style>
+
+    <style name="TimeTextStyle">
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_time</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="DateTextStyle">
+        <item name="android:textColor">?attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="FavoriteAppStyle">
+        <item name="android:textColor">?attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/spacing_large</item>
+        <item name="android:background">@drawable/app_list_item_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>
