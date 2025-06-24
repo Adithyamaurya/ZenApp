@@ -1,12 +1,70 @@
-# ZenApp
-Welcome to ZenApp – The Minimalist Android Launcher  Tired of cluttered home screens, distracting notifications, and overwhelming icons? ZenApp is designed to bring calm, clarity, and simplicity to your phone. Inspired by the principles of minimalism and digital wellbeing, ZenApp helps you reclaim your focus—one swipe at a time.
-<br>
-<img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/home.png" alt="ZenApp Screenshot" width="300">
-<img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/applist.png" alt="ZenApp Screenshot" width="300">
-<img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/setting.png" alt="ZenApp Screenshot" width="300">
-<img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/about.png" alt="ZenApp Screenshot" width="300">
+<h1 align="center">🌿 ZenApp</h1>
+<p align="center">
+  <b>The Minimalist Android Launcher</b><br>
+  <i>Declutter your digital life. One swipe at a time.</i>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/built%20with-Java-orange" alt="Java">
+  <img src="https://img.shields.io/badge/platform-Android-blue" alt="Android">
+  <img src="https://img.shields.io/github/license/Adithyamaurya/ZenApp" alt="License">
+</p>
 
+---
 
+## 🧘 About ZenApp
 
+**ZenApp** is a minimalist Android launcher designed for those seeking **focus**, **clarity**, and **digital well-being**.
 
+Tired of cluttered home screens, noisy notifications, and app overload?  
+ZenApp helps you reclaim your attention and peace by offering:
+
+- 🚫 Distraction-free home screen  
+- 🎯 Simple app list without icons  
+- 🌙 Lightweight design focused on performance  
+- ⚙️ Essential customizations, nothing more
+
+Inspired by the principles of **Zen** and **minimalism**.
+
+---
+
+## ✨ Screenshots
+
+<p align="center">
+  <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/home.png" alt="Home Screen" width="200"/>
+  <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/applist.png" alt="App List" width="200"/>
+  <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/setting.png" alt="Settings" width="200"/>
+  <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/about.png" alt="About Page" width="200"/>
+</p>
+
+---
+
+## 🔧 Features
+
+- 🏠 Clean and minimal home screen
+- 📃 App list with no icons or distractions
+- ⚙️ Basic settings for essential control
+- 🚀 Fast, lightweight, and open-source
+- 🌗 Perfect for digital minimalists & focus-seekers
+
+---
+
+## 🛠️ Built With
+
+- **Kotlin** – Modern Android development
+- **Jetpack Libraries** – Clean architecture & performance
+- **Material You** – Simple and subtle design language
+
+---
+
+## 📦 Installation
+
+> Currently not published on the Play Store. You can install via APK or build it manually.
+
+### 📥 Manual Build
+
+```bash
+git clone https://github.com/Adithyamaurya/ZenApp.git
+open with Android Studio
+Build → Run on device/emulator
