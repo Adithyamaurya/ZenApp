@@ -52,7 +52,7 @@ Inspired by the principles of **Zen** and **minimalism**.
 
 ## 🛠️ Built With
 
-- **Kotlin** – Modern Android development
+- **Java** – Modern Android development
 - **Jetpack Libraries** – Clean architecture & performance
 - **Material You** – Simple and subtle design language
 
