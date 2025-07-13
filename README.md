@@ -36,7 +36,7 @@ Inspired by the principles of **Zen** and **minimalism**.
   <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/app.png" alt="App List" width="200"/>
   <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/setting_v2.png" alt="Settings" width="200"/>
   <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/about.png" alt="About Page" width="200"/>
-  <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/blocking.png" alt="Blocking Page" width="200"/>
+ <!--  <img src="https://github.com/Adithyamaurya/ZenApp/blob/main/images/blocking.png" alt="Blocking Page" width="200"/> -->
 
 </p>
 
