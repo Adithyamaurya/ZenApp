@@ -48,7 +48,8 @@ Inspired by the principles of **Zen** and **minimalism**.
 - 📃 App list with no icons or distractions
 - ⚙️ Basic settings for essential control
 - 🚀 Fast, lightweight, and open-source
-- 🌗 Perfect for digital minimalists & focus-seekers
+- 🔒 **Advanced App Blocking** with a unique essay-to-unlock mechanism
+- 🧘 Extreme Minimalist Mode: hide settings promoting deep focus and preventing distractions.
 
 ---
 
