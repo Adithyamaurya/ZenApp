@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unlock App"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Essay Prompt -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Essay Prompt:"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/essayPromptTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write your reflection here..."
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/settings_item_background"
+            android:padding="16dp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif-light" />
+
+        <!-- Word Count and Progress -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/wordCountTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Words: 0/200"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/progressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progress: 0%"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium" />
+
+        </LinearLayout>
+
+        <!-- Real-time Evaluation -->
+        <TextView
+            android:id="@+id/evaluationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/text_hint"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/settings_item_background"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-light"
+            android:visibility="gone" />
+
+        <!-- Essay Input -->
+        <EditText
+            android:id="@+id/essayEditText"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/settings_item_background"
+            android:padding="16dp"
+            android:hint="Start writing your essay here... (No copy-paste allowed - type manually)"
+            android:textColorHint="@color/text_hint"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:gravity="top|start"
+            android:inputType="textMultiLine|textCapSentences"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Evaluation Progress -->
+        <ProgressBar
+            android:id="@+id/evaluationProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone" />
+
+        <!-- Requirements Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Minimum 200 words\n• Original content (no copy-paste)\n• Thoughtful reflection\n• Minimum score: 75/100"
+            android:textColor="@color/text_hint"
+            android:textSize="12sp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-light"
+            android:alpha="0.8"
+            android:background="@drawable/settings_item_background"
+            android:padding="12dp" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:textColor="@color/text_secondary"
+                android:background="@drawable/app_list_item_background"
+                android:layout_marginEnd="8dp"
+                android:padding="16dp" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Evaluate  Unlock"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/settings_item_background"
+                android:layout_marginStart="8dp"
+                android:padding="16dp"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

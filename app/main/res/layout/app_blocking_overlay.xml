@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0000000"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/settings_item_background"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/blockingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔒 App is Blocked"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/blockingMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app requires an essay to unlock"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif-light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/homeButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Go Home"
+                android:textColor="@color/text_secondary"
+                android:background="@drawable/app_list_item_background"
+                android:layout_marginEnd="8dp"
+                android:padding="16dp" />
+
+            <Button
+                android:id="@+id/unlockButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Write Essay"
+                android:textColor="@color/text_secondary"
+                android:background="@drawable/app_list_item_background"
+                android:layout_marginStart="8dp"
+                android:padding="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

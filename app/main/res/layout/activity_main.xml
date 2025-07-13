@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_primary"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <!-- Time Display -->
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:00"
+        android:textColor="@color/text_primary"
+        android:textSize="64sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Date Display -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday, January 01"
+        android:textColor="@color/text_secondary"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Quote Display -->
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your daily quote appears here"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"
+        android:lineSpacingExtra="4dp"
+        android:alpha="0.9" />
+
+    <!-- App Container -->
+    <LinearLayout
+        android:id="@+id/appContainer"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" />
+
+</LinearLayout>
